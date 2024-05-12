@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <section>
-      <nav className="flex z-10 items-center justify-between absolute top-[0%] bottom-auto left-[0%] right-[0%] pt-5 lg:pr-[3vw] pb-5 lg:pl-[3vw] pr-[11px] pl-[11px]">
+    <section className="relative block  ">
+      <nav className="flex z-10 items-center justify-between absolute top-[0%] bottom-auto left-[0%] right-[0%] pt-[20px] lg:pr-[3vw] pb-[20px] lg:pl-[3vw] pr-[11px] pl-[11px]">
         <div className="flex items-center">
           <div className="text-[20px] uppercase font-semibold sm:max-w-[100%] grid place-content-center mt-1">
             inflatable
@@ -20,7 +20,7 @@ const Header = () => {
             height={36}
           />
         </div>
-        
+
         {/* Add spacing for mobile */}
         <div className="lg:hidden w-12"></div>
 
@@ -29,9 +29,36 @@ const Header = () => {
             {" "}
             Download, for figma and blender
           </div>
-          <div className="uppercase block lg:hidden">download</div>
+          <div className="uppercase block lg:hidden font-semibold">
+            download
+          </div>
         </div>
       </nav>
+
+      <div className="w-[100vw] pb-[60px] relative overflow-hidden flex-col items-center ">
+        <div className="z-0  flex flex-start justify-between relative mt-[46px] ">
+          <div className="w-[50vw]">
+            {" "}
+            <Image
+              src="/images/hero-1.png"
+              alt="image"
+              width={800}
+              height={800}
+              className=" mt-[20px] w-[33vw] ml-[-11vw]"
+            />
+          </div>
+
+          <div>
+            <Image
+              src="/images/hero-3.png"
+              alt="image"
+              width={800}
+              height={800}
+              className="w-[37vw] mt-[200px] mr-[-2vw] rotate-[35deg]"
+            />
+          </div>
+        </div>
+      </div>
     </section>
   );
 };

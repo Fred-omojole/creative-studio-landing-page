@@ -3,8 +3,8 @@ import Navbar from "./(home)/Header";
 
 export default function Home() {
   return (
-   <main>
-     <Navbar/>
-   </main>
+    <main>
+      <Navbar />
+    </main>
   );
 }
