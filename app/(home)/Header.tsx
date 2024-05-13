@@ -36,29 +36,54 @@ const Header = () => {
       </nav>
 
       <div className="w-[100vw] pb-[60px] relative overflow-hidden flex-col items-center ">
-        <div className="z-0  flex flex-start justify-between relative mt-[46px] ">
-          <div className="w-[50vw]">
+        <div className="z-0 mt-[150px] flex flex-start justify-between relative lg:mt-[46px] ">
+          <div className="lg:w-[50vw]">
             {" "}
             <Image
               src="/images/hero-1.png"
               alt="image"
-              width={800}
+              width={1000}
               height={800}
-              className=" mt-[20px] w-[33vw] ml-[-11vw]"
+              className=" lg:mt-[20px] w-[55vw] lg:w-[33vw] ml-[-11vw]"
             />
           </div>
 
-          <div>
+          <div className="">
             <Image
               src="/images/hero-3.png"
               alt="image"
-              width={800}
+              width={1000}
               height={800}
-              className="w-[37vw] mt-[200px] mr-[-2vw] rotate-[35deg]"
+              className="lg:w-[37vw]  lg:mt-[200px] w-[37vw] lg:mr-[-2vw] rotate-[35deg]"
             />
           </div>
         </div>
       </div>
+
+      <div className="lg:hidden flex z-0 w-[100vw] h-[100vh] min-h-[640px] flex-col justify-center items-center absolute inset-0">
+        <div className=" w-[100%] max-w-[540px] ">
+          <div className="text-[20px] text-center text-black font-medium">
+            Stay creative with
+          </div>
+          <h1 className="overflow-hidden text-[48px] leading-[48px] text-center uppercase mt-[40px] mb-0 font-[400]">
+            inflatable abstract 3d illustrations
+          </h1>
+        </div>
+      </div>
+
+      <div className=" hidden z-0 w-[100vw] h-[100vh] min-h-[640px] lg:flex flex-col justify-center items-center absolute inset-[0%]">
+        <div className="lg:w-[56vw] md:w-[80vw] ">
+          <div className="text-center text-[20px]">Stay creative with</div>
+          <h1 className=" md:tracking-[-3px] text-center lg:tracking-[-5px] uppercase mt-[40px] mb-0 lg:text-[7vw] font-[400] lg:leading-[6.8vw]  ">
+            {" "}
+            Inflatable abstract 3d illustrations
+          </h1>
+        </div>
+      </div>
+
+      {/* <div className="z-[1] w-[100vw] flex-col items-center mt-[-207px] md:mt-[-359px]  lg:mt-[-460px] flex relative">
+        <Image src="/images/hero-2.png" alt="image" width={600} height={600} />
+      </div> */}
     </section>
   );
 };
