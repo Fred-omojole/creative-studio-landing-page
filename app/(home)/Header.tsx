@@ -6,7 +6,7 @@ const Header = () => {
     <section className="relative block  ">
       <nav className="flex z-10 items-center justify-between absolute top-[0%] bottom-auto left-[0%] right-[0%] pt-[20px] lg:pr-[3vw] pb-[20px] lg:pl-[3vw] pr-[11px] pl-[11px]">
         <div className="flex items-center">
-          <div className="text-[20px] uppercase font-semibold sm:max-w-[100%] grid place-content-center mt-1">
+          <div className="text-[20px] uppercase font-medium sm:max-w-[100%] grid place-content-center mt-1 lg:border-black lg:hover:border-none lg:border-[2px] lg:transition lg:ease-in-out lg:duration-100 cursor-pointer">
             inflatable
           </div>
           <div className="hidden lg:block ml-[9px] mr-[7px] mt-[1px] mb-0 text-sm ">
@@ -80,10 +80,33 @@ const Header = () => {
           </h1>
         </div>
       </div>
+      <div className="overflow-hidden z-[1] w-[100vw] flex-col items-center lg:mt-[-460px] mt-[-207px] md:mt-[-359px] flex relative">
+        <Image
+          className="  lg:w-[65vw] lg:mt-[279px] lg:mr-[100px] relative align-middle max-w-[100%] md:mt-[573px] mt-[356px] mr-[7vw] w-[100vw]"
+          src="/images/hero-2.png"
+          alt=""
+          width={900}
+          height={800}
+        />
 
-      {/* <div className="z-[1] w-[100vw] flex-col items-center mt-[-207px] md:mt-[-359px]  lg:mt-[-460px] flex relative">
-        <Image src="/images/hero-2.png" alt="image" width={600} height={600} />
-      </div> */}
+        <div>
+          <Image
+            className="hidden lg:block  lg:w-[80vw] absolute top-auto lg:bottom-0 left-[10vw] right-0 align-middle max-w-[100%]  md:bottom-0 w-[100vw]  "
+            src="/images/hero-4.png"
+            alt="image"
+            width={900}
+            height={800}
+          />
+
+          <Image
+            className="lg:hidden block w-[100vw] absolute top-auto bottom-0 left-[10vw] right-0   "
+            src="/images/hero-4.png"
+            alt="image"
+            width={900}
+            height={800}
+          />
+        </div>
+      </div>
     </section>
   );
 };
