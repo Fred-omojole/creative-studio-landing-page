@@ -116,7 +116,7 @@ const Header = () => {
         <div className="max-w-[1400px] flex  border-[1px] border-solid border-black rounded-[20px] items-center pt-[2vw] pr-[3.5vw] pb-[1.5vw] pl-[4vw]">
           <div className="w-[30vw]">
             {" "}
-            <div className="tracking-[1.5px] uppercase font-sans text-[48px] font-semibold leading-[48px] xl:ml-20 xl:items-center">
+            <div className="tracking-[1.5px] uppercase font-sans text-[48px] font-semibold leading-[48px] xl:ml-10 xl:items-center">
               Playfull & captivating
             </div>
           </div>
@@ -130,8 +130,35 @@ const Header = () => {
           </div>
 
           <div className="w-[30vw] pl-[60px]">
-            <div className=" font-sans font-semibold  leading-[22px] text-[18px]">
-              Add sense of playfulness into your projects that&apos;s perfect for capturing attention and creating memorable experiences
+            <div className=" font-sans font-semibold leading-[22px] text-[18px]">
+              Add sense of playfulness into your projects that&apos;s perfect
+              for capturing attention and creating memorable experiences
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className=" lg:hidden flex mb-[100px] md:mb-[120px] flex-col items-center mt-0 pl-[4vw] pr-[4vw] ">
+        <div className="max-w-[1400px] border-[1px] border-solid border-black flex justify-between rounded-[20px] items-center pt-[30px] pb-[30px] flex-col pr-[3.5vw] pl-[4vw]">
+          <div className="w-[92%] md:w-[100%] justify-center items-center flex mb-[20px]">
+            {" "}
+            <div className="break-all text-[36px] leading-[36px] text-center inline tracking-[-2px] uppercase md:font-semibold font-[400]">
+              Playfull & captivating
+            </div>
+          </div>
+          <div className="flex items-center justify-center">
+            <Image
+              src="/images/star.png"
+              alt="image"
+              width={100}
+              height={100}
+            />
+          </div>
+
+          <div className="w-[100%] md:w-80vw pl-0 text-center justify-center items-center mt-[24px] flex ">
+            <div className="text-center block leading-[22px] font-[400] text-[18px]">
+              Add sense of playfulness into your projects that&apos;s perfect
+              for capturing attention and creating memorable experiences
             </div>
           </div>
         </div>
