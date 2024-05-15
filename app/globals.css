@@ -19,3 +19,8 @@
   /* line-height: 20px; */
   /* color: #333; */
 /* } */ 
+
+
+.overflow-wrap{
+  overflow-wrap:normal;
+}

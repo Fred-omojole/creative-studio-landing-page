@@ -6,7 +6,7 @@ const Header = () => {
     <section className="relative block  ">
       <nav className="flex z-10 items-center justify-between absolute top-[0%] bottom-auto left-[0%] right-[0%] pt-[20px] lg:pr-[3vw] pb-[20px] lg:pl-[3vw] pr-[11px] pl-[11px]">
         <div className="flex items-center">
-          <div className="text-[20px] uppercase font-medium sm:max-w-[100%] grid place-content-center mt-1 lg:border-black lg:hover:border-none lg:border-[2px] lg:transition lg:ease-in-out lg:duration-100 cursor-pointer">
+          <div className="text-[20px] uppercase font-medium sm:max-w-[100%] grid place-content-center mt-1  cursor-pointer">
             inflatable
           </div>
           <div className="hidden lg:block ml-[9px] mr-[7px] mt-[1px] mb-0 text-sm ">
@@ -37,7 +37,7 @@ const Header = () => {
 
       <div className="w-[100vw] pb-[60px] relative overflow-hidden flex-col items-center ">
         <div className="z-0 mt-[150px] flex flex-start justify-between relative lg:mt-[46px] ">
-          <div className="lg:w-[50vw]">
+          <div className="lg:w-[50vw] ">
             {" "}
             <Image
               src="/images/hero-1.png"
@@ -82,7 +82,7 @@ const Header = () => {
       </div>
       <div className="overflow-hidden z-[1] w-[100vw] flex-col items-center lg:mt-[-460px] mt-[-207px] md:mt-[-359px] flex relative">
         <Image
-          className="  lg:w-[65vw] lg:mt-[279px] lg:mr-[100px] relative align-middle max-w-[100%] md:mt-[573px] mt-[356px] mr-[7vw] w-[100vw]"
+          className="  lg:w-[65vw] lg:mt-[79px]  lg:mr-[100px] relative align-middle max-w-[100%] md:mt-[373px] mt-[356px] mr-[7vw] w-[100vw]"
           src="/images/hero-2.png"
           alt=""
           width={900}
@@ -105,6 +105,35 @@ const Header = () => {
             width={900}
             height={800}
           />
+        </div>
+      </div>
+
+      {/* <div className="mb-[100px] pt-[60px]  sm:mb-[120px] pl-[4vw] pr-[4vw] flex-col mt-[0] flex md:mb-[140px] md:items-center lg:pr-[10vw] lg:pl-[10vw] ">
+        <div className="max-w-[1400px] border-[1px] border-solid border-black rounded-[20px] justify-between items-center flex "> </div>
+      </div> */}
+
+      <div className="hidden lg:flex flex-col center mt-0 mb-[140px] pl-[10vw] pr-[10vw] ">
+        <div className="max-w-[1400px] flex  border-[1px] border-solid border-black rounded-[20px] items-center pt-[2vw] pr-[3.5vw] pb-[1.5vw] pl-[4vw]">
+          <div className="w-[30vw]">
+            {" "}
+            <div className="tracking-[1.5px] uppercase font-sans text-[48px] font-semibold leading-[48px] xl:ml-20 xl:items-center">
+              Playfull & captivating
+            </div>
+          </div>
+          <div className="flex items-center justify-center">
+            <Image
+              src="/images/star.png"
+              alt="image"
+              width={100}
+              height={100}
+            />
+          </div>
+
+          <div className="w-[30vw] pl-[60px]">
+            <div className=" font-sans font-semibold  leading-[22px] text-[18px]">
+              Add sense of playfulness into your projects that&apos;s perfect for capturing attention and creating memorable experiences
+            </div>
+          </div>
         </div>
       </div>
     </section>
