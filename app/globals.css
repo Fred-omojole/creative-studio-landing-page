@@ -33,3 +33,7 @@
 .orange{
   color: #ffd960;
 }
+
+.shadow{
+  box-shadow: 37px 59px 70px 4px rgba(0, 0, 0, .15)
+}

@@ -15,6 +15,12 @@ const Hero = () => {
         width={800}
         height={800}
       />
+
+      <div className="max-w-[500px] md:mt-[85px] mt-[75px] text-[18px] font-[400px] leading-[22px] text-white text-center ">
+        We&apos;ve carefully selected materials and textures that capture the essence
+        of the inflatable style. They add a tactility to your designs, making
+        them feel more interactive and engaging.
+      </div>
     </section>
   );
 };
