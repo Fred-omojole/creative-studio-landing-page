@@ -12,8 +12,8 @@ const Hero = () => {
         className="md:w-[60vw] max-w-[800px] w-[90vw] align-middle inline-block  "
         src="/images/play.png"
         alt="image"
-        width={800}
-        height={800}
+        width={900}
+        height={900}
       />
 
       <div className="max-w-[500px] md:mt-[85px] mt-[75px] text-[18px] font-[400px] leading-[22px] text-white text-center ">

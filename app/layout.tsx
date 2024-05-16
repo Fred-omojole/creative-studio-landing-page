@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Open_Sans } from "next/font/google";
 import "./globals.css";
 
-const poppins = Poppins({
-  weight: ["100", "300", "400", "500"],
+const open_Sans = Open_Sans({
+  weight: ["300", "400", "500"],
   subsets: ["latin"],
 });
 
@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <body className={open_Sans.className}>{children}</body>
     </html>
   );
 }
