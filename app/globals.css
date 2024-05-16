@@ -24,3 +24,12 @@
 .overflow-wrap{
   overflow-wrap:normal;
 }
+
+.background{
+  background-image: linear-gradient(#7446b8,#a78dff);
+}
+
+
+.orange{
+  color: #ffd960;
+}
