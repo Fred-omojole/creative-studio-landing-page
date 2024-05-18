@@ -32,8 +32,8 @@ const Display = () => {
           className="w-[85vw] md:w-[100%] lg:mt-[-112px] overflow-hidden md:rounded-[10px] md:mt-[-51px] mt-[-76px] rounded-[8px]"
           src="/images/blender.png"
           alt="image"
-          width={600}
-          height={600}
+          width={90000}
+          height={90000}
         />
       </div>
     </section>
