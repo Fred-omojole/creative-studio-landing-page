@@ -8,9 +8,17 @@ const Price = () => {
           design with speed and quality
         </h4>
       </div>
-      <div className="max-w-[940px] lg:mt-[60px] flex lg:flex-row flex-col items-center w-[100%] mt-[30px] ">
-        <div className="justify-between lg:flex-row lg:items-stretch flex flex-col md:items-center items-start "></div>
+      <div className=" lg:flex-none lg:max-w-[940px] md:mt-[60px] md:max-w-[940px] md:flex-col md:items-center flex w-[100%] mt-[30px] ">
+        <div className="justify-between lg:flex-row lg:items-stretch flex flex-col md:items-center items-start ">
+          <div className="w-[54%] rounded-[20px] flex-col justify-between items-start p-[60px] background flex relative overflow-hidden md:pt-[120px] md:pr-[4vw] md:pb-[120px] md:pl-[4vw] pt-[100px] pr-[6vw] pb-[100px] pl-[6vw]">
+            <div className="z-10 flex-col items-start flex relative mb-[40px]">
+              <h4 className="text-center tracking-[-1.5px] uppercase text-[48px] font-[400] leading-[48px] text-[#fff]">full set</h4>
+            </div>
+          </div>
+        </div>
       </div>
+
+      {/* <div className=" lg:flex-none lg:max-w-[940px] md:mt-[60px] md:max-w-[940px] md:flex-col md:items-center flex w-[100%] mt-[30px] "></div> */}
     </section>
   );
 };
