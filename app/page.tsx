@@ -1,4 +1,5 @@
 import Display from "./(home)/Display";
+import Footer from "./(home)/Footer";
 import Header from "./(home)/Header";
 import Hero from "./(home)/Hero";
 import Objects from "./(home)/Objects";
@@ -14,6 +15,7 @@ export default function Home() {
       <Display />
       <Objects />
       <Price />
+    
     </main>
   );
 }

@@ -128,7 +128,7 @@ const Objects = () => {
         </div>
         <h3 className="text-[#000] tracking-[-2px] uppercase font-[400] md:text-[56px] md:leading-[56px] text-center  lg:text-[64px] lg:leading-[64px] text-[48px] leading-[52px]">
           {" "}
-          30 beautiful objects
+          21 beautiful objects
         </h3>
       </div>
       <div className="w-[100%] grid gap-y-6 gap-x-6 lg:grid-cols-3 grid-cols-2 mt-[40px]">
