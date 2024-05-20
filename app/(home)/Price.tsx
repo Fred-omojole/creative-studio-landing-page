@@ -39,7 +39,7 @@ const Price = () => {
       </div>
      
     </section>
-     <Footer/>
+    
      </>
   );
 };
