@@ -14,7 +14,7 @@ export default function Home() {
       <Project />
       <Display />
       <Objects />
-      {/* <Price /> */}
+       <Price />
       <Footer/>
     
     </main>
