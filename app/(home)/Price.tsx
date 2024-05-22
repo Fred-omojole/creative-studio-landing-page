@@ -63,7 +63,7 @@ const Price = () => {
               <Image
                 src="/images/purchase.png"
                 className="z-[0] lg:w-[300px] md:w-[90%] absolute top-[33%] bottom-[0%] left-auto right-[0%] max-w-[260px]"
-                alt=""
+                alt="image"
                 width={200}
                 height={200}
               />
