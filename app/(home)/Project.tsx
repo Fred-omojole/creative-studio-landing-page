@@ -1,14 +1,13 @@
+"use client";
+
 import Image from "next/image";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-gsap.registerPlugin(ScrollTrigger)
 
 const Project = () => {
   return (
     <>
       <section className="lg:pt-[140px] lg:pr-[10vw] pb-0 lg:pl-[10vw] md:pt-[120px] pl-[4vw] pr-[4vw] block overflow-hidden pt-[90px]  ">
         <div className="lg:w-[65vw] w-[90vw] ">
-          <h3 className="uppercase tracking-[-2px] lg:text-[64px] font-[400] lg:leading-[64px] md:text-[56px] md:leading-[56px] leading-[52px] text-[48px]">
+          <h3 className=" text   uppercase tracking-[-2px] lg:text-[64px] font-[400] lg:leading-[64px] md:text-[56px] md:leading-[56px] leading-[52px] text-[48px]">
             perfect for websites, apps, email marketing, branding, social media
             and other design projects.
           </h3>
