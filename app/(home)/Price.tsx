@@ -1,11 +1,12 @@
 import React from "react";
 
 import Image from "next/image";
+import Link from "next/link";
 
 const Price = () => {
   return (
     <>
-      <section className="black flex-col items-center lg:pt-[140px] lg:pb-[140px] flex  lg:pr-0 lg:pl-0 pt-[100px] pr-[6vw] pl-[6vw] pb-[100px] md:pt-[120px] md:pl-[4vw] md:pb-[120px] md:pr-[4vw] ">
+      <section id="price" className="black flex-col items-center lg:pt-[140px] lg:pb-[140px] flex  lg:pr-0 lg:pl-0 pt-[100px] pr-[6vw] pl-[6vw] pb-[100px] md:pt-[120px] md:pl-[4vw] md:pb-[120px] md:pr-[4vw] ">
         <div className="max-w-[540px] ">
           <h4 className="tracking-[-1.5px]  text-[48px] text-center uppercase font-[400] leading-[48px] text-[#fff]">
             design with speed and quality

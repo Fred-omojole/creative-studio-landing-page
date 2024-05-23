@@ -1,5 +1,8 @@
+"use client";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+import { Link as ScrollLink } from "react-scroll";
 
 const Header = () => {
   return (
@@ -23,16 +26,18 @@ const Header = () => {
 
         {/* Add spacing for mobile */}
         <div className="lg:hidden w-12"></div>
-
-        <div className="  lg:inline-block rounded-full cursor-pointer border-[1px] border-solid border-black pt-[15px] pr-[20px] pb-[10px] pl-[20px] max-w-[100%] lg:hover:bg-black lg:hover:text-white transition duration-300 ease-in-out">
-          <div className=" hidden lg:block lg:text-[15px] uppercase font-semibold">
-            {" "}
-            Download, for figma and blender
+        <ScrollLink to="price" smooth offset={120}>
+          {" "}
+          <div className="  lg:inline-block rounded-full cursor-pointer border-[1px] border-solid border-black pt-[15px] pr-[20px] pb-[10px] pl-[20px] max-w-[100%] lg:hover:bg-black lg:hover:text-white transition duration-300 ease-in-out">
+            <div className=" hidden lg:block lg:text-[15px] uppercase font-semibold">
+              {" "}
+              Download, for figma and blender
+            </div>
+            <div className="uppercase block lg:hidden font-semibold">
+              download
+            </div>
           </div>
-          <div className="uppercase block lg:hidden font-semibold">
-            download
-          </div>
-        </div>
+        </ScrollLink>
       </nav>
 
       <div className="w-[100vw] pb-[60px] relative overflow-hidden flex-col items-center ">
